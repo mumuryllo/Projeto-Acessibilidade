@@ -1,0 +1,69 @@
+/*  Iphone */
+@media (min-width:668px) and (max-width:1024px){
+
+    /* Inicio do Header */
+    .menu {
+      background-color: blue;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: justify;
+      flex-direction: column;
+    }
+    ul,
+    li {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px 5px 0px 5px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .escuro {
+      background-color: rgb(146, 20, 146);
+      color: #fff;
+      font-weight: 800;
+      align-items: justify;
+      margin-top: 22px;
+      width: 170px;
+      height: 45px;
+      font-size: 28px;
+      border: none;
+    }
+    
+    
+    
+    .Dark {
+      background-color: #000;
+      font-weight: 800;
+    }
+    .darkMenu li {
+      color: rgb(37, 102, 187);
+      font-size: 23px;
+    }
+    .claro.buttonDark {
+      background-color: cornflowerblue;
+      color: #fff;
+      font-weight: 800;
+      border: none;
+      text-align: center;
+    }
+    .alinhar {
+      padding: 25px;
+      align-items: center;
+      margin-bottom: 15%;
+      margin-left: 5%;
+    }
+    .claro {
+      display: none;
+      align-items: justify;
+      margin-top: 30px;
+      width: 160px;
+      height: 35px;
+      font-size: 25px;
+    }
+      /* Fim do Header */
+  }
+  
+  

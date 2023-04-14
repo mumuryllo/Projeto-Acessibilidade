@@ -1,0 +1,66 @@
+/*  Iphone */
+@media (min-width:375px) and (max-width:667px){
+
+    /* Inicio do Header */
+    .menu {
+        background-color: blue;
+      }
+      ul,
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .escuro {
+        background-color: rgb(146, 20, 146);
+        color: #fff;
+        font-weight: 800;
+        align-items: justify;
+        margin-bottom: 35px;
+        width: 190px;
+        height: 45px;
+        font-size: 32px;
+        border: none;
+      }
+      
+      .alinhar {
+        padding: 25px;
+        align-items: center;
+        margin-bottom: 15%;
+        margin-left: 5%;
+      }
+      
+      .Dark {
+        background-color: #000;
+        font-weight: 800;
+      }
+      .darkMenu li {
+        color: rgb(139, 139, 221);
+        font-size: 28px;
+      }
+      .claro.buttonDark {
+        background-color: cornflowerblue;
+        color: #fff;
+        font-weight: 800;
+        border: none;
+      }
+      .claro {
+        display: none;
+        align-items: justify;
+        margin-bottom: 25px;
+        width: 170px;
+        height: 10vh;
+        font-size: 32px;
+      }
+       
+      
+      
+      /* Fim do Header */
+  }
+  
+  
