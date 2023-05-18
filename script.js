@@ -10,6 +10,12 @@ const ul = document.querySelector("ul");
 const but = document.querySelector("button");
 const claro = document.querySelector(".claro");
 const escuro = document.querySelector(".escuro");
+const logos1 = document.querySelector(".logos1");
+const logos2 = document.querySelector(".logos2");
+const links1 = document.querySelector(".links1");
+const links2 = document.querySelector(".links2");
+const Footer = document.querySelector("footer");
+
 
 // aqui adicionamos quantas classes quisermos
 // ao clicar no botão
@@ -30,17 +36,26 @@ if (GetThemeLight === "LIGHT") {
 function dark() {
   escuro.style.display = "none";
   claro.style.display = "block";
+  logos1.style.display = "none"
+  logos2.style.display = "none"
+  links1.style.display = "block"
+  links2.style.display = "block"
 }
 
 function light() {
   escuro.style.display = "block";
   claro.style.display = "none";
+  logos1.style.display = "block"
+  logos2.style.display = "block"
+  links1.style.display = "none"
+  links2.style.display = "none"
 }
 
 // funções para salvar  as preferencias
 
 function darkAdd() {
   menu.classList.add("Dark");
+  Footer.classList.add("dark-footer");
   ul.classList.add(...menuDark);
   claro.classList.add(...butDark);
   dark();
@@ -52,6 +67,7 @@ function resetar() {
   ul.classList.remove(...menuDark);
   but.classList.remove(...butDark);
   menu.classList.remove("Dark");
+  Footer.classList.remove("dark-footer");
   light();
 }
 

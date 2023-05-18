@@ -12,7 +12,6 @@ button{
   cursor: pointer;
 }
 
-@media (min-width: 1025px) and (max-width: 1366px) {
   /* Inicio do Header */
 
 .menu {
@@ -79,9 +78,58 @@ li {
 
 /* Fim do Header */
 
+
+/* Inicio do Footer */
+footer{
+  width: 100%;
+  background-color: rgb(160, 205, 231);
 }
-
-
+.dark-footer{
+  width: 100%;
+  background-color: rgb(13, 104, 157);
+  padding: 2%;
+  margin-top: 10px;
+  text-align: center;
+}
+.logos1{
+  background-color: rgb(160, 205, 231);
+  width: 15%;
+  margin-top: 20px;
+  
+  border-radius: 30px;
+}
+.logos2{
+  background-color: rgb(160, 205, 231);
+  width: 30%;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+#qrcode{
+  background-color: rgb(160, 205, 231);
+  width: 15%;
+  margin-left: 7%;
+}
+#copy{
+  margin-top: 1%;
+  padding-bottom: 1%;
+  padding-top: 3%;
+  margin-left: 7%;
+}
+.links1{
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #cdcefe;
+  display: none;
+}
+.links2{
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #cdcefe;
+  display: none;
+}
+/* Fim do Footer */
 
 
 
